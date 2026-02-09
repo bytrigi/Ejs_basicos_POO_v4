@@ -26,25 +26,4 @@ public class Coche {
         System.out.println();
     }
 
-    public void encederMotor(){
-        if (motor.isStatus()){
-            System.out.printf("El motor ya esta encendido.\n");
-            System.out.println();
-        } else {
-            motor.setStatus(true);
-            System.out.printf("Encendiendo motor...\n");
-            System.out.println();
-        }
-    }
-
-    public void apagarMotor(){
-        if (!motor.isStatus()){
-            System.out.printf("El motor ya esta apagado.\n");
-            System.out.println();
-        } else {
-            motor.setStatus(false);
-            System.out.printf("Apagando motor...\n");
-            System.out.println();
-        }
-    }
 }

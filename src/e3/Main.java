@@ -7,7 +7,7 @@ public class Main {
 
         coche.mostrarInfo();
 
-        coche.encederMotor();
+        motor.encederMotor();
 
         coche.mostrarInfo();
 
